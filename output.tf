@@ -46,7 +46,4 @@ output "azurestorageaccountname" {
   value="${azurerm_storage_account.redis.name}"
 }
 
-output "azurestorageaccountkey"  {
-  value="${azurerm_storage_account.redis.primary_access_key}"
-}
 
